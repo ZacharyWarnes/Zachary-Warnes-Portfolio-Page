@@ -1,0 +1,10 @@
+header {
+    background-color: burlywood
+}
+
+header li {
+    display: inline;
+    padding: 10px;
+    flex-direction: row;
+    
+}
