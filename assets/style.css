@@ -2,9 +2,20 @@ header {
     background-color: burlywood
 }
 
+header h1 {
+    text-align: center;
+}
+
 header li {
     display: inline;
     padding: 10px;
-    flex-direction: row;
-    
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
 }
