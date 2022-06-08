@@ -88,3 +88,16 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+    .App {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        width: 100%;
+    }
+    
+}
