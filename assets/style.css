@@ -11,13 +11,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-style: solid;
     padding: 20px;
     background-color: rgb(174, 182, 169)
 }
 
 header h1 {
     justify-content: flex-start;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 nav {
@@ -40,6 +41,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: space-between;
     background-color: blanchedalmond;
+    border-style: solid
 }
 
 .About h2 {
@@ -54,6 +56,35 @@ nav a:hover {
     padding: 10px;
 }
 
+.Work {
+    background-color:rgb(174, 182, 169);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Work h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.App {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.App h2 {
+    padding: 10px;
+}
+
+.App img {
+    width: 100%;
+}
+
 footer {
     text-align: center;
 }
+
