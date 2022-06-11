@@ -59,7 +59,8 @@ nav a:hover {
 .Work {
     background-color:rgb(174, 182, 169);
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 .Work h2 {
@@ -67,8 +68,14 @@ nav a:hover {
     margin-bottom: 2%;
 }
 
+.subcontainer {
+    display: flex;
+
+}
+
 .App {
-    flex: 1 0 200px;
+    /* flex: 1 0 200px; */
+    width: 25%;
     padding: 10px;
     text-align: center;
     border-style: solid;
@@ -78,6 +85,8 @@ nav a:hover {
 
 .App h2 {
     padding: 10px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .App img {
@@ -88,16 +97,37 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 992px) {
-    .App {
-        width: 50%;
+@media screen and (max-width: 1080px) {
+    .subcontainer {
+        /* width: 50%; */
+        /* flex-wrap: wrap; */
+    }
+    .App h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 942px) {
+    .App h2 {
+        font-size: 15px;
     }
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
+    .subcontainer {
+        flex-wrap: wrap;
+
+    }
     .App {
-        width: 100%;
+        width: 50%; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .App {
+        width:100%;
     }
     
 }
