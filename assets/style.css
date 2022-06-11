@@ -98,10 +98,7 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
-    .subcontainer {
-        /* width: 50%; */
-        /* flex-wrap: wrap; */
-    }
+    
     .App h2 {
         font-size: 20px;
     }
