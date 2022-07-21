@@ -58,11 +58,11 @@ nav a:hover {
 
 .Work {
     background-color:rgb(174, 182, 169);
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin:  20px auto;
+    margin:  auto;
     padding: 10px;
 }
 
@@ -88,9 +88,15 @@ nav a:hover {
     padding: 0 0 20px 0;
     margin: .5em;
     text-decoration: none;
-
+    background-size: 150%;
 
 }
+
+.project-1 {
+    background-image: url('/assets/images/aux-nudge.JPG');
+    border-image-width: auto;
+}
+
 
 .App {
     width: 25%;
@@ -138,13 +144,13 @@ footer {
         flex-wrap: wrap;
 
     }
-    .App {
+    .flex-item {
         width: 50%; 
     }
 }
 
 @media screen and (max-width: 550px) {
-    .App {
+    .flex-item {
         width:100%;
     }
     
