@@ -58,9 +58,12 @@ nav a:hover {
 
 .Work {
     background-color:rgb(174, 182, 169);
+    width: 95%;
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:  20px auto;
+    padding: 10px;
 }
 
 .Work h2 {
@@ -70,6 +73,22 @@ nav a:hover {
 
 .subcontainer {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.flex-item {
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: space-evenly;
+    padding: 0 0 20px 0;
+    margin: .5em;
+    text-decoration: none;
+
 
 }
 
@@ -77,19 +96,18 @@ nav a:hover {
     width: 25%;
     padding: 10px;
     text-align: center;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 1px;
-    border-radius: 15px;
+    border-radius: 15px; */
 }
 
-.App h2 {
-    padding: 10px;
-    width: 70%;
-    margin: 0 auto;
+.App h3 {
+    display: flex;
+    justify-content: center;
 }
 
-.App img {
-    width: 100%;
+.App p {
+    display: block;
 }
 
 .Contact {
