@@ -97,6 +97,11 @@ nav a:hover {
     border-image-width: auto;
 }
 
+.project-2 {
+    background-image: url('images/JOIN-Our-Table-Thumbnail.png');
+    border-image-width: auto;
+}
+
 
 .App {
     width: 25%;
